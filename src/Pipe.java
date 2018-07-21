@@ -7,7 +7,7 @@ import processing.core.PImage;
 public class Pipe extends PApplet {
 
 	public float posX, posY, height;
-	public static float pipeDiffY = 150, pipeDiffX = 250;
+	public static float pipeDiffY = 145, pipeDiffX = 250;
 	public static float pipeMIN, pipeMAX;
 	public static PImage lowerPipe, upperPipe;
 	public static ArrayList<Pipe> pipes = new ArrayList<Pipe>();

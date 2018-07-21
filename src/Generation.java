@@ -38,7 +38,7 @@ public class Generation extends PApplet {
 		// Generates new population
 		Bird[] newPop = population;
 		sort();
-		for (int i = population.length / 2; i < population.length; i++) {
+		for (int i = population.length / 4; i < population.length; i++) {
 			newPop[i].neuralNet = select().crossover(select().neuralNet);
 		}
 		population = newPop;
