@@ -5,6 +5,7 @@
     <img src="src/data/Training Mode.PNG" width=600></br>
 </p>
 
+### Project Demo: https://youtu.be/9ZNViB0XizM
 
 ### Project Details:
 At the start of training, a random popultation of birds is created. Each bird consists of unique genetic material (weights) that determines when it jumps relative to the distance from the pipes and the ground. 
